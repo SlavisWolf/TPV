@@ -1,0 +1,331 @@
+<html lang="en"><!-- Mirrored from wrappixel.com/demos/admin-templates/material-pro/dark/pages-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jan 2018 09:00:05 GMT --><head>
+    
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="templates/assets/images/favicon.png">
+    
+    <title>Nueva Familia</title>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="templates/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="templates/css/style.css" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- You can change the theme colors from here -->
+    <link href="templates/css/colors/green-dark.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+
+
+
+
+
+
+<body class="fix-header fix-sidebar card-no-border">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index-2.html">
+                        <!-- Logo icon --><b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="templates/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo icon -->
+                            <img src="templates/img/logoblanco.png" alt="homepage" class="light-logo logo-panaderia" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text --><span>
+                         <!-- dark Logo text -->
+                         <img src="templates/assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                         
+                         
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse navbar-icon-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto mt-md-0 navbar-icons">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="mdi mdi-menu"></i></a> </li>
+                        <!-- ============================================================== -->
+                        
+                        
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav my-lg-0">
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted text-muted waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
+                                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right mailbox scale-up">
+                                <ul>
+                                    <li>
+                                        <div class="message-center">
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="btn btn-danger btn-circle"><i class="fa fa-link"></i></div>
+                                                <div class="mail-contnet">
+                                                    <h5>Mensaje del servidor</h5> <span class="mail-desc"></span> <span class="time mensaje-servidor-clientes">{{message}}</span> </div>
+                                            </a>
+                                            <!-- Message -->
+                                            
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Profile -->
+                        <!-- ============================================================== -->
+                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar menu-izquierda">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- User profile -->
+                <div class="user-profile">
+                    <!-- User profile image -->
+                    <div class="profile-img"> <img src="{{gravatar}}" alt="user" /> </div>
+                    <!-- User profile text-->
+                    
+                </div>
+                <!-- End User profile text-->
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav nav-menu-izquierda">
+                    <ul id="sidebarnav">
+                        <li class="nav-small-cap">{{rol}}</li>
+                        <li class="active"> <a data-icon="A" class=" ti-home waves-effect waves-dark" href = "./" aria-expanded="false"><i></i><span class="hide-menu">HOME </span></a></li>
+                        <li class="active"> <a data-icon="A" class=" ti-layout-media-center-alt waves-effect waves-dark" href = "./?ruta=tpv" aria-expanded="false"><i></i><span class="hide-menu">TPV </span></a></li>
+                        <li class="active"> <a data-icon="A" class="icon-people waves-effect waves-dark" href = "./?ruta=cliente" aria-expanded="false"><i></i><span class="hide-menu">CLIENTES </span></a></li>
+                        
+                        <li class="active"> <a data-icon="A" class="linea-icon linea-ecommerce waves-effect waves-dark active"  href = "./?ruta=producto" aria-expanded="false"><i></i><span class="hide-menu">PRODUCTOS </span></a></li>
+                        <li class="active {{link_admin}}"> <a class=" icon-user waves-effect waves-dark" href = "./?ruta=miembro" aria-expanded="false"><i class=""></i><span class="hide-menu">MIEMBROS </span></a></li>
+                        <li class="active"> <a class=" icon-pencil waves-effect waves-dark" href="./?ruta=miembro&accion=perfil" aria-expanded="false"><i class=""></i><span class="hide-menu">EDITAR PERFIL </span></a></li>
+                        <li class="active"> <a class=" icon-list waves-effect waves-dark" href="./?ruta=ticket" aria-expanded="false"><i class=""></i><span class="hide-menu">TICKETS </span></a></li>
+                        <li class="active"> <a class=" icon-logout waves-effect waves-dark" href = "./?accion=logout" aria-expanded="false"><i class=""></i><span class="hide-menu">SALIR </span></a></li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+
+            <!-- End Bottom points-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper fondo-panaderia">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <div class="row page-titles">
+                    <div class="col-md-5 col-8 align-self-center">
+                        <h3 class="text-themecolor"> Bienvenido {{correo}} 
+            
+            {{mesagge}}</h3>
+                        <ol class="breadcrumb">
+                            
+                            <li class="breadcrumb-item active">Menú de {{rol}}</li>
+                            <li class="breadcrumb-item active">Lista de familias</li>
+                            <li class="breadcrumb-item active">Nueva Familia</li>
+                            
+                        </ol>
+                    </div>
+                    
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                
+               
+                
+                <!-- Row -->
+                <!-- Row -->
+                <div class="row fila-editar-miembro">
+                    <!-- Column -->
+                    <div class="card editar-miembro" style="min-width:500px">
+                    <div class="col-lg-12  m-b-30 ">
+            <h4 style="color:black;">Nueva familia de productos</h4>
+            
+            <form method="POST" enctype="multipart/form-data">
+                
+                <div class= 'form-group'>
+                    <input class="form-control" required type="text" id ="family" name="family" maxlength="100" placeholder="Nombre de la familia"/>
+                    <span class = 'error'>Span error</span>
+                </div>
+                
+                
+                <label class="uploader" ondragover="return false">
+                    <i class="icon-upload icon fa fa-file-image"></i>
+                    <img src="" class="">
+                    <input required type="file" accept="image/*" name="family_image" formnovalidate="formnovalidate">
+                </label>
+                
+                <span class = "file_error">Formato Inválido</span>
+                
+                
+                
+                <input type="hidden" name="accion" value="donuevafamilia"/>
+                <input type="hidden" name="ruta" value="producto"/>
+                
+                <input type="submit" class = "btn btn-info" value="Registrar" />
+            </form>
+            </div>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Right sidebar -->
+                <!-- ============================================================== -->
+                
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="templates/assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="templates/assets/plugins/bootstrap/js/popper.min.js"></script>
+    <script src="templates/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="templates/js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="templates/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="templates/js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="templates/assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="templates/assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="templates/assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="templates/js/custom.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <!-- chartist chart -->
+    <script src="templates/assets/plugins/chartist-js/dist/chartist.min.js"></script>
+    <script src="templates/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+    <!--c3 JavaScript -->
+    <script src="templates/assets/plugins/d3/d3.min.js"></script>
+    <script src="templates/assets/plugins/c3-master/c3.min.js"></script>
+    <!-- Chart JS -->
+    <script src="templates/js/dashboard1.js"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="templates/assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+    <script src="./js/funciones.js"></script>
+    <script src="./js/validacion.js"></script>
+    
+    <script defer  src ="./js/FileUploader.js"></script>
+    <script type="text/javascript">
+                window.addEventListener('load', function() {
+                    new FileUploader('.uploader');  
+                })                                    
+    </script>
+</body>
+
+
+<!-- Mirrored from wrappixel.com/demos/admin-templates/material-pro/dark/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jan 2018 08:58:25 GMT -->
+</html>
