@@ -1,0 +1,215 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-feb-2018, 11:04:57
+    Author     : daw
+*/
+
+.families {
+    margin-bottom: 40px;
+}
+
+.families_items, .products_items {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;    
+}
+
+.family, .product {
+    margin: 15px 20px;
+}
+
+.family {
+    max-width: 168px;
+}
+
+.family, .product {
+    max-width: 268px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    box-shadow: 1px 1px 2px gray;
+    border-radius: 5px;
+}
+
+.product img{
+    width: 100%;
+}
+
+
+.family h3, .product h3 {
+    text-align: center; 
+}
+
+textarea {
+    display: block;
+}
+
+.family img, .family h3 {
+    cursor: pointer;
+    transition-property: border-color,color;
+    transition-duration: 300ms;
+}
+
+.buscador_productos span {
+    /*transform: rotateY(180deg);*/
+    cursor:pointer;
+}
+
+.gravatar {
+    border-radius: 100%;
+}
+
+.fila_producto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 12px 0 12px;
+}
+
+.product p{
+    margin: 10px 12px;
+    text-align: justify;        
+}
+
+.error {
+    color:red;
+    font-size: 0.8em;
+    display: block;
+    opacity: 0;
+    background-color: transparent;
+    margin-top: -16px;
+    text-align: center;
+    transition: all 0.45s linear;
+    pointer-events:none;
+}
+
+.error_visible {
+    margin-top: 7px;
+    opacity: 1;
+    pointer-events:auto;
+    
+}
+
+.titulo_resaltado {
+    color: #AB1E14;
+    font-weight: 500;
+}
+
+.elemento_oculto {
+    display:none;
+}
+
+.file_error {
+    color:red;
+    font-size: 0.8em;
+    display: block;
+    width: 96%;
+    text-align: center;
+    padding-bottom: 15px;
+    opacity: 0;
+    transition:  opacity 500ms linear;
+}
+
+.aparecer {
+    opacity: 1;
+}
+
+.form-control:focus {
+    border-color: #ab1e1491;
+}
+
+#product_filter span {
+    color: #ab1e14;
+}
+
+.family.seleccionada h3 {
+    color: #ab1e14;
+}
+
+.family.seleccionada img {
+    border-color: #ab1e14;
+}
+
+.family.seleccionada img:hover, .family.seleccionada h3:hover {
+    cursor: auto;
+}
+
+.pagination_current {
+    margin-left: 10px;
+    color: #ab1e14;
+}
+
+
+.buscadores_tickets {
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.buscadores_tickets h4 {
+    color: black;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#botonBuscar {
+     align-self:flex-end;  
+     margin-bottom: 9px;
+}
+
+.ticket_tr {
+    cursor:pointer;
+}
+
+.center_flex {
+    display: flex;
+    justify-content:center;
+}
+
+
+.cabecera_familias {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.buscador_productos {
+    margin-right: 60px;
+    display: flex;
+    align-items:center;
+}
+
+/*.buscador_productos input:focus {
+    border-color: #ab1e1491;
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    outline: none;
+}*/
+
+.buscador_productos span {
+    background-color: #ab1e14;
+    padding: 7px 11px;
+    color: white;
+    transition: background-color 250ms linear;
+}
+
+.buscador_productos span:hover{
+    background-color: #69140e;
+}
+
+.producto_familia,.precio {
+    font-weight: 400;
+    color: #ab1e14;
+    font-size: 0.9em;
+}
